@@ -10,12 +10,12 @@ public class BusquedaBinaria {
         
         while(low <= high){
             int middlePosition = (low + high) / 2; 
-            int middelNumber =  numbers[middlePosition];
+            int middleNumber =  numbers[middlePosition];
             
             if(numberToFind == middlePosition){
                 return middlePosition;
             }
-            if(numberToFind < middlePosition){
+            if(numberToFind < middleNumber){
                 high = middlePosition - 1; 
             } else {
                 low = middlePosition + 1; 

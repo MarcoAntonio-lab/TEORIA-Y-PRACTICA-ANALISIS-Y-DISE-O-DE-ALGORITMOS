@@ -26,7 +26,7 @@ public class BusquedaBinaria {
     
     public static void main(String[] args) {
         
-        int [] ints = {1, 2, 3, 4, 5, 6, 7, 9, 11, 15}; 
+        int [] ints = {1, 2, 3, 4, 5, 6, 7, 9, 11, 15, 16}; 
         System.out.println(binarySearch(ints, 8));
        
     }

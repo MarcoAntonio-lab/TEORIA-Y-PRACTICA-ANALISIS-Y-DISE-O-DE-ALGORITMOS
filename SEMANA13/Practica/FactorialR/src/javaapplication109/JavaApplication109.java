@@ -9,7 +9,7 @@ public class JavaApplication109 {
         if (n == 0 || n == 1) {
             return 1;  // Caso base
         } else {
-            return n * factorialk(n - 1);  // Llamada recursiva
+            return n * factorialk(n - 1);  // Llamada recursiva para el factorial
         }
     }
 
